@@ -1,0 +1,102 @@
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Inkyeong Park
+title: Project Manager
+email: ikpark0112@gmail.com
+# website: www.github.com/keonhoChu
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+github_username:  pig0112
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: __chuuuuoooo
+# linkedin_username: keonho-chu
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtag: "G-N33LLK7MJV"
+# google_analytics: "G-N33LLK7MJV"
+# # Analytics
+# analytics:
+#   provider: "google-gtag" 
+#                           # false (default), "google", "google-universal", "google-gtag", "custom"
+#   google:
+#     tracking_id: "G-N33LLK7MJV"  # Replace with your Google Analytics tracking ID
+#     anonymize_ip: true  # You can set it to true or false as per your requirement
+# About Section
+# about_title: About Me
+about_profile_image: images/pro1.jpeg
+about_content: |  # this will include new lines to allow paragraphs
+  Hi, my name's Inkyeong and I'm a junior PM.
+  
+  
+  
+  
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Mopl ideathon in <mark>HanHwa Vision</mark>
+        sub_title: Date of acquisition
+        caption: November 2023
+        quote: >
+          Award-winning performance: <mark>2nd place</mark>
+        description: |
+          ![한화비젼](https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/P4SBFHH7J5CAXC6JXU3FVGF54E.jpg)
+
+      - layout: left
+        border: weak
+        title: Cisco Inovation Challenge
+        sub_title: Date of acquisition
+        caption: May 2024
+        quote: >
+            Award-winning performance: <mark>1st place</mark>
+        description: |
+            ![시스코](https://community.cisco.com/t5/image/serverpage/image-id/203079iCBDE6781054A1E07?v=v2)
+
+      - layout: left
+        border: weak
+        title: CheongJu Mayor's Commendation 
+        sub_title: Date of acquisition
+        caption: 2023-06-19
+        quote: >
+          Certificate Issuing Authority: <mark>CheongJu Si</mark>
+        description: |
+          ![청주시](https://i.namu.wiki/i/Kz_HXHINgA5asIYRRbJRooUEjEabYXTNN79a3Lx5bdpgSMgVSSrhFSMcDZ2pTxROc6-t2cQHXQilPu-ABw9Kgw.svg)
+
+  
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in AI engineering some of my other interests and hobbies are:
+      - Stock trading : Tesla, Nvidia, Intel etc...
+      - Gaming : LostArk, League of Legends, Battleground etc...
+      - Participation In the Festival 
+      - ESG : Save Earth! 
+     
