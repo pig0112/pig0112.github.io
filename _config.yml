@@ -1,3 +1,4 @@
+# Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
@@ -6,70 +7,61 @@ version: 2
 
 # Personal info
 name: Inkyeong Park
-title: Project Manager
+title: Junior ESG Project Manager
 email: ikpark0112@gmail.com
-# website: www.github.com/keonhoChu
+# website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: never
 
 # Social links
+# twitter_username: facespics
 github_username:  pig0112
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: __chuuuuoooo
-# linkedin_username: keonho-chu
-# xing_username: jekyll
-# pinterest_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: suk1229999
+# # xing_username: jekyll
+# # pinterest_username: jekyll
 # youtube_username: globalmtb
-# googleplus_username: +jekyll
+# # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 # additional_links:
 # - title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtag: "G-N33LLK7MJV"
-# google_analytics: "G-N33LLK7MJV"
-# # Analytics
-# analytics:
-#   provider: "google-gtag" 
-#                           # false (default), "google", "google-universal", "google-gtag", "custom"
-#   google:
-#     tracking_id: "G-N33LLK7MJV"  # Replace with your Google Analytics tracking ID
-#     anonymize_ip: true  # You can set it to true or false as per your requirement
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
 # About Section
 # about_title: About Me
-about_profile_image: images/pro1.jpeg
-about_content: |  # this will include new lines to allow paragraphs
-  Hi, my name's Inkyeong and I'm a junior PM.
-  
-  
-  
-  
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Hi. there.
+
+  I'm very interested in <mark>society</mark> and the <mark>environment.</mark>
+
+  So I've been involved in related activities and campaigns for a long time. 
+
+  And now I'm going to try to be professional in thinking about the <mark>earth</mark>, not a hobby. 
+
+  Please look forward to working as an <mark>ESG</mark> expert in various fields!
+
 content:
   - title: Projects
     layout: list
     content:
-      - layout: left
-        border: weak
-        title: Mopl ideathon in <mark>HanHwa Vision</mark>
-        sub_title: Date of acquisition
-        caption: November 2023
-        quote: >
-          Award-winning performance: <mark>2nd place</mark>
-        description: |
-          ![한화비젼](https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/P4SBFHH7J5CAXC6JXU3FVGF54E.jpg)
-
       - layout: left
         border: weak
         title: Cisco Inovation Challenge
@@ -82,21 +74,173 @@ content:
 
       - layout: left
         border: weak
+        title: HanHwa Vision Mopl ideathon 
+        sub_title: Date of acquisition
+        caption: November 2023
+        quote: >
+          Award-winning performance: <mark>2nd place</mark>
+        description: |
+          ![한화비젼](https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/P4SBFHH7J5CAXC6JXU3FVGF54E.jpg)
+
+      - layout: left
+        border: weak
         title: CheongJu Mayor's Commendation 
         sub_title: Date of acquisition
-        caption: 2023-06-19
+        caption: October 2023
         quote: >
           Certificate Issuing Authority: <mark>CheongJu Si</mark>
         description: |
           ![청주시](https://i.namu.wiki/i/Kz_HXHINgA5asIYRRbJRooUEjEabYXTNN79a3Lx5bdpgSMgVSSrhFSMcDZ2pTxROc6-t2cQHXQilPu-ABw9Kgw.svg)
 
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Wepublic DAO HwanSangClub
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Environmentally conscious plogging groups and activities
+        caption: April 2024 - May 2024
+        quote: >
+          "Together, we strive to save the environment."
+        description: | # this will include new lines to allow paragraphs
+          Wepublic DAO HwanSangClub is a non-profit organization dedicated to environmental conservation and sustainable development. The group I participated in aims to address environmental pollution issues through an activity known as plogging.
+
+          I contributed to projects aimed at sustainable development, thereby making a positive impact on environmental protection. Through this experience, I enhanced my awareness of environmental issues and developed the ability to take practical action.
+      
+      
+      - layout: left
+        title: Censia Campaign
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Walking donation campaign (support medical expenses for vulnerable people with poor leg health)
+        caption: October 2023 
+        quote: >
+           "Every step counts towards a healthier future."
+        description: |
+          The Censia Campaign was a walking donation initiative aimed at supporting the medical expenses of vulnerable individuals suffering from poor leg health. Participants were encouraged to walk a certain distance, and sponsors would donate funds based on the distance covered.
+    
+          I was actively involved in organizing and promoting this campaign, coordinating with local communities and healthcare organizations to raise awareness and gather support. Through this experience, I witnessed the power of collective action in making a positive impact on the lives of those in need.
+
+      - layout: left
+        title: Korea Western Power Co., Ltd. and Save the Children Campaign
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Together Value Pickup Plogging Campaign (Food Support Campaign for Children Without Meals)
+        caption: November 2022 
+        quote: >
+           "Join us in creating a brighter future for children in need."
+        description: |
+          The Korea Western Power Co., Ltd. and Save the Children Campaign was a collaborative effort to organize the Together Value Pickup Plogging Campaign, aimed at providing food support for children without meals.
+ 
+      - layout: left
+        title: Korea Lou Gehrig's Disease Association Campaign
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Root Challenge, a campaign to donate to Lou Gehrig's disease patients by tracking
+        caption: July 2022 
+        quote: >
+            "One step at a time, we can make a world of difference."
+        description: |
+            The Korea Lou Gehrig's Disease Association Campaign initiated the Root Challenge, a unique fundraising campaign aimed at supporting patients suffering from Lou Gehrig's disease.
+    
+            Participants in this campaign were encouraged to track their physical activities, such as walking or running, and for each mile covered, sponsors would make donations to assist patients with medical expenses and research efforts.
+   
+      - layout: left
+        title: SK Incheon Petrochemical Co., Ltd Campaign
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Hi walk together season 5 Happy companion with the visually impaired (a challenge to support the visually impaired portable braille version)
+        caption: June 2022 
+        quote: >
+           "Walking hand in hand towards a more inclusive future."
+        description: |
+          SK Incheon Petrochemical Co., Ltd organized the Hi walk together season 5 campaign, aimed at fostering companionship and support for the visually impaired community.
+
+          It was heartening to see the enthusiasm and dedication of participants as we worked towards a more inclusive society. Through this campaign, we not only raised awareness about the challenges faced by the visually impaired but also took tangible steps towards providing solutions and support.
+    
+      - layout: left
+        title: KOREA EAST-WEST POWER Campaign
+        sub_title: New Warm Walk Donation EWP Energy 1004 Project 9th Story Dangjin Jogeum Elementary School
+        caption: March 2021 
+        quote: >
+          "Walking towards a brighter future, one step at a time."
+        description: |
+             The KOREA EAST-WEST POWER Campaign launched the New Warm Walk Donation EWP Energy 1004 Project in collaboration with the 9th Story Dangjin Jogeum Elementary School.
+    
+             This initiative aimed to provide warmth and support to the local community by distributing energy resources and essential supplies. As part of the campaign, volunteers engaged in walking activities to raise awareness and gather donations for those in need.
+
+      - layout: left
+        title: Chungbuk National University Affiliated Middle School
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Educational service for underprivileged students
+        caption: June 2014 
+        quote: >
+            "Empowering tomorrow's leaders through education."
+        description: |
+            Chungbuk National University Affiliated Middle School offered educational services aimed at supporting underprivileged students in their academic pursuits.
+    
+            As a volunteer, I participated in various activities such as tutoring sessions, mentoring programs, and extracurricular workshops. These initiatives were designed to provide additional educational support and opportunities for students who may face socio-economic challenges.
+    
+            Through my involvement, I witnessed the transformative power of education in empowering young minds and creating pathways to success. It was a rewarding experience to contribute to the academic growth and development of these students, helping them realize their full potential.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: ChungBuk University
+        caption: 2012 - 2019
+        sub_title: BS Chemistry Of Education
+        quote: >
+          "Education is the key to unlocking endless possibilities."
+        description: | # this will include new lines to allow paragraphs
+          ChungBuk University provided me with a comprehensive education in Chemistry of Education, equipping me with the knowledge and skills necessary to pursue a career in the field.
+        
+          Throughout my studies, I engaged in rigorous coursework, laboratory experiments, and research projects that deepened my understanding of chemical principles and educational methodologies. I also had the opportunity to collaborate with faculty members and fellow students on various academic initiatives, further enriching my learning experience.
+        
+          My time at ChungBuk University not only broadened my academic horizons but also instilled in me a passion for lifelong learning and a commitment to making a positive impact in the field of education.
+ 
+  - title: Certificate # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    - layout: top bottom
+      title: Korean History Exam (GradeⅡ) 
+      caption: June 2018
+      sub_title: 韓國史能力檢定試驗, National Institute of Korean History
+
+
+    - layout: top bottom
+      title: Secondary School Teacher Chemistry (GradeⅡ)
+      caption: Febuary 2016
+      sub_title: 敎育人的資源部, Ministry of Education & Human Resources Development
   
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in AI engineering some of my other interests and hobbies are:
-      - Stock trading : Tesla, Nvidia, Intel etc...
-      - Gaming : LostArk, League of Legends, Battleground etc...
-      - Participation In the Festival 
-      - ESG : Save Earth! 
-     
+
+    - layout: top bottom
+      title: Secondary School Teacher Common Science (GradeⅡ)
+      caption: Febuary 2016
+      sub_title: 敎育部, Ministry of Education 
+        
+  - title: Language Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    - layout: top bottom
+      title: G-TELP
+      caption: July 2023
+      sub_title: G-TELP Level 2 Score 68
+
+ 
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
